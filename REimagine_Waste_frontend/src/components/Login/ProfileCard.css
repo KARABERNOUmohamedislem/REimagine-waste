@@ -1,0 +1,23 @@
+.MainContainerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20.375rem;
+  height: 21.313rem;
+  background: #eeeeee;
+  border-radius: 15px;
+  margin: 0 2rem 0 2rem;
+}
+
+  .user.image{
+    margin-top: 5%;
+    height: 73%;
+    width: 78%;
+
+  }
+  .title.profile{
+    font-family: Poppins-Normal;
+    font-weight: 600;
+    font-size: 30px;
+  }

@@ -1,0 +1,49 @@
+.mainbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 5%; */
+  width: 100%;
+}
+.mButton {
+  position: fixed;
+  height: 12%;
+  width: 20%;
+  background: radial-gradient(
+    100% 1280.37% at 0% 0%,
+    rgba(0, 165, 66, 0.97) 0%,
+    #09b495 100%
+  );
+  /* text-align: center; */
+  padding-top: auto;
+  margin-bottom: auto;
+  border-radius: 20px;
+  margin: auto;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mButton p {
+  vertical-align: middle;
+  color: white;
+  font-family: Poppins-SemiBold;
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: auto;
+}
+.buttonshadow {
+  position: fixed;
+  margin-top: 3%;
+  margin-left: 0%;
+  height: 10%;
+  width: 19%;
+  border-radius: 35px;
+  background: radial-gradient(
+    100% 1280.37% at 0% 0%,
+    rgba(0, 165, 66, 0.97) 0%,
+    #09b495 100%
+  );
+  opacity: 0.5;
+  filter: blur(60px);
+}

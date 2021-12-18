@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart_container{
+    position: absolute;
+    top: 13%;
+    left: 19.5%;
+    background-color: white;
+    width: 48%;
+    height: 44%;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+.chart_container2{
+    background-color: white;
+    width: 85%;
+    height: 100%;
+    display: flex;
+}
+.bar{
+    width: 80%;
+}
+.bg{
+    width: 100%;
+}

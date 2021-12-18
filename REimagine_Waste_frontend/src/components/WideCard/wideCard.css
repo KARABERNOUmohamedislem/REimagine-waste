@@ -1,0 +1,64 @@
+.widecard.maincontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30rem;
+    height: 7rem;
+    background: #FFFFFF;
+    border-radius: 17px;
+
+}
+.image.widecard{
+    height: 5rem;
+    width: auto;
+    margin-right: 4%;
+
+
+}
+.imginfo{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+}
+.infocontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    width: auto;
+}
+.text.weight{
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+
+
+
+color: #222444;
+
+}
+.text.price{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    margin-right: 4%;
+    
+    
+    color: #222444;
+}
+.text.product{
+    
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+/* identical to box height */
+
+
+color: #222444;
+}

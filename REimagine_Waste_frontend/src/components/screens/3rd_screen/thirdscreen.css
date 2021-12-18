@@ -1,0 +1,59 @@
+.thirdscreen {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cardsdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 35%;
+  width: 94%;
+  margin-top: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.cardsHeader {
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+  margin-left: 2%;
+}
+.flexcol h1 {
+  font-family: Poppins-Bold;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #323232;
+  line-height: 0px;
+  /* margin-top: 0px; */
+}
+.flexcol p {
+  font-family: Poppins-Normal;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #323232;
+  line-height: 0px;
+}
+
+.cardsHeader2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: 25%;
+}
+.logpng {
+  margin-top: 7.7%;
+  height: 25%;
+  margin-right: 5.5%;
+}
