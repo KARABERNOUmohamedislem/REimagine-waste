@@ -1,0 +1,36 @@
+- add wasted product : POST
+http://127.0.0.1:8000/add/waste/
+{"user_id" : "019550a5-5f27-11ec-939d-e4b97a0deecc",
+"product_id" : "0910cf39-5f27-11ec-9b7e-e4b97a0deecc",
+"wasted_kilos" : 60,
+"estimated_price" : 2400,
+"date" : "2020-12-17"}
+
+- add entree : POST
+http://127.0.0.1:8000/add/entree/
+{"user_id" : "019550a5-5f27-11ec-939d-e4b97a0deecc",
+"product_id" : "0910cf39-5f27-11ec-9b7e-e4b97a0deecc",
+"entered_kilos" : 60,
+"estimated_price" : 2400,
+"date" : "2020-12-17"}
+
+- get total waste of a product during a month:
+http://127.0.0.1:8000/wasted/product/month/?month=12&year=2021&product=0910cf39-5f27-11ec-9b7e-e4b97a0deecc
+
+- get total waste of a product during a day:
+http://127.0.0.1:8000/wasted/product/day/?day=2021-12-17&product=0910cf39-5f27-11ec-9b7e-e4b97a0deecc
+
+- get total waste of a product during a period:
+http://127.0.0.1:8000/wasted/product/period/?start_date=2021-12-1&fin_date=2021-12-20&product=0910cf39-5f27-11ec-9b7e-e4b97a0deecc
+
+- get total waste of an employee during a month:
+http://127.0.0.1:8000/employee/wasted/products/month/?month=12&year=2021&employee=019550a5-5f27-11ec-939d-e4b97a0deecc
+
+- get total waste of an employee during a day:
+http://127.0.0.1:8000/employee/wasted/products/day/?day=2021-12-17&employee=019550a5-5f27-11ec-939d-e4b97a0deecc
+
+- get total waste of an employee during a period:
+http://127.0.0.1:8000/employee/wasted/products/period/?start_date=2021-12-1&fin_date=2021-12-20&employee=019550a5-5f27-11ec-939d-e4b97a0deecc
+
+- get total waste per product during a period:
+http://127.0.0.1:8000/wasted/products/period/?start_date=2021-12-1&fin_date=2021-12-20
